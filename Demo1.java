@@ -42,6 +42,22 @@ public class Demo1{
         if(marks2 <0|| marks2 > 100) System.out.println("\033[31mInvalid marks");
         if(marks2 <0|| marks2 > 100) break quiz;
 
+        scanner.nextLine();
+
+        System.out.print("Enter your subject 3 : ");
+        String sub3 = scanner.nextLine();
+        if(sub3.contains(sub1))System.out.println("\033[31mInvalid subject");
+        if(sub3.contains(sub1)) break quiz;
+        if(sub3.contains(sub2))System.out.println("\033[31mInvalid subject");
+        if(sub3.contains(sub2)) break quiz;
+        if(!sub3.startsWith("SE-")) System.out.println("\033[31mInvalid subject");
+        if(!sub3.startsWith("SE-")) break quiz;
+
+        System.out.print("Enter your marks 3 :");
+        double marks3 = scanner.nextDouble();
+        if(marks3 <0|| marks3 > 100) System.out.println("\033[31mInvalid marks");
+        if(marks3 <0|| marks3 > 100) break quiz;
+
 
 
     }
