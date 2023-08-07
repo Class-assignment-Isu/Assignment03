@@ -32,7 +32,8 @@ public class Demo1{
 
         System.out.print("Enter your subject 2 : ");
         String sub2 = scanner.nextLine();
-        if(sub2.substring(sub1))so
+        if(sub2.contains(sub1))System.out.println("\033[31mInvalid subject");
+        if(sub2.contains(sub1)) break quiz;
         if(!sub2.startsWith("SE-")) System.out.println("\033[31mInvalid subject");
         if(!sub2.startsWith("SE-")) break quiz;
 
