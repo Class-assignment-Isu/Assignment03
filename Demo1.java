@@ -58,6 +58,26 @@ public class Demo1{
         if(marks3 <0|| marks3 > 100) System.out.println("\033[31mInvalid marks");
         if(marks3 <0|| marks3 > 100) break quiz;
 
+        scanner.nextLine();
+
+        double total;
+        double avg;
+        total= marks1 + marks2 + marks3 ;
+        avg = total/3;
+
+        String status;
+        if(avg>75)status="\033[34;1mDistinguished Pass\033[0m\t";
+        else if(avg>=65)status="\033[32;1mCredit Pass\033[0m\t\t\t\t\t\t\t";
+        else if(avg >=55)status="\033[33;1mPass \033[0m\t\t\t\t\t\t\t\t";
+        else status= "\033[31;1mFail\033[0m\t\t\t\t\t\t\t\t"; 
+
+        
+
+        System.out.println("+----------------------------------------+");
+        System.out.println();
+        System.out.println(name.toUpperCase());
+        System.out.println(status);
+
 
 
     }
