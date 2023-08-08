@@ -71,6 +71,24 @@ public class Demo1{
         else if(avg >=55)status="\033[33;1mPass \033[0m\t\t\t\t\t\t\t\t";
         else status= "\033[31;1mFail\033[0m\t\t\t\t\t\t\t\t"; 
 
+        String status1;
+        if(avg>75)status1="\033[34;1mDistinguished Pass\033[0m\t";
+        else if(avg>=65)status1="\033[32;1mCredit Pass\033[0m\t\t\t\t\t\t\t";
+        else if(avg >=55)status1="\033[33;1mPass \033[0m\t\t\t\t\t\t\t\t";
+        else status1= "\033[31;1mFail\033[0m\t\t\t\t\t\t\t\t"; 
+
+        String status2;
+        if(avg>75)status2="\033[34;1mDistinguished Pass\033[0m\t";
+        else if(avg>=65)status2="\033[32;1mCredit Pass\033[0m\t\t\t\t\t\t\t";
+        else if(avg >=55)status2="\033[33;1mPass \033[0m\t\t\t\t\t\t\t\t";
+        else status2= "\033[31;1mFail\033[0m\t\t\t\t\t\t\t\t"; 
+
+        String status3;
+        if(avg>75)status3="\033[34;1mDistinguished Pass\033[0m\t";
+        else if(avg>=65)status3="\033[32;1mCredit Pass\033[0m\t\t\t\t\t\t\t";
+        else if(avg >=55)status3="\033[33;1mPass \033[0m\t\t\t\t\t\t\t\t";
+        else status3= "\033[31;1mFail\033[0m\t\t\t\t\t\t\t\t"; 
+
         
 
         System.out.println("+----------------------------------------+");
