@@ -92,8 +92,8 @@ public class Demo1{
         
 
         System.out.println("+----------------------------------------+");
-        System.out.println();
-        System.out.println(name.toUpperCase());
+        System.out.println("|                                          |");
+        System.out.printf("|  Name  : name.toUpperCase());
         System.out.println(status);
 
 
